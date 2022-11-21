@@ -3,6 +3,7 @@ import { getThemeVariables as darkThemeVariables } from './theme-dark';
 import { getThemeVariables as defaultThemeVariables } from './theme-default';
 import { getThemeVariables as forestThemeVariables } from './theme-forest';
 import { getThemeVariables as neutralThemeVariables } from './theme-neutral';
+import { getThemeVariables as proxyThemeVariables } from './theme-proxy';
 
 export default {
   base: {
@@ -19,5 +20,8 @@ export default {
   },
   neutral: {
     getThemeVariables: neutralThemeVariables,
+  },
+  proxy: {
+    getThemeVariables: proxyThemeVariables,
   },
 };
